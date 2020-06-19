@@ -9,17 +9,37 @@
 
 <body>
     <div id="container">
-        <div class="images">
-
+        <div id="subcontainer">
+            <div id="title">AVAILABLE IMAGES</div>
+            <div class="images"></div>
         </div>
     </div>
 </body>
 <style>
     .images {
-        height: 100vh;
-        width: 100vw;
-        border: 2px deeppink;
+        height: 50vh;
+        width: 25vw;
+        border: 2px plum;
+        justify-content: space-around;
+    }
+    
+    #container {
+        background-color: white;
+        flex-wrap: wrap;
+        flex-direction: row;
+        color: black;
+        justify-content: center;
+    }
+    
+    #title {
+        font-size: xx-large;
+        font-family: monospace;
+    }
+    
+    #subcontainer:hover {
+        box-shadow: 3px 3px 3px grey;
     }
 </style>
+<script src="photo.js"></script>
 
 </html>
