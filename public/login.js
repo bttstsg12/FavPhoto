@@ -24,7 +24,7 @@ const login = () => {
         var credential = error.credential;
         console.log(error);
     });
-    //window.location.href = "photo.html";
+    window.location.href = "photo.html";
 
 }
 firebase.auth().signOut().then(function() {
