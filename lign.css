@@ -1,10 +1,14 @@
 .box{
-    border: blueviolet 3px solid;
+    border:
 }
 input{
     outline: none;
+    height: 20px;
+    width: 200px;
 }
 body{
+    background-color: deeppink; 
+    
     display: flex;
     justify-content: center;
     align-items: center;
