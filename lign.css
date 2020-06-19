@@ -1,0 +1,13 @@
+.box{
+    border: blueviolet 3px solid;
+}
+input{
+    outline: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;  
+}
